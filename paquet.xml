@@ -1,0 +1,23 @@
+<paquet
+	prefix="menuderoulantaccessible"
+	categorie="navigation"
+	version="1.0.0"
+	etat="stable"
+	compatibilite="[3.0.10;3.0.*]"
+	logo=""
+	documentation=""
+>
+	<!--
+		Paquet genere le 2013-07-22 12:28:31
+	-->
+
+	<nom>Menu Déroulant Accessible</nom>
+
+	<auteur>Vertige ASBL</auteur>
+
+	<licence>GNU/GPL</licence>
+
+  <pipeline nom="insert_head" />
+  <pipeline nom="insert_head_css" />
+
+</paquet>

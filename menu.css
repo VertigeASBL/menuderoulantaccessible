@@ -1,0 +1,9 @@
+.menuDeroulantAccessible ul {
+  position: absolute;
+  left: -99999px;
+}
+.menuDeroulantAccessible li:hover > ul,
+.menuDeroulantAccessible li.afficher > ul {
+  right: 99999px;
+  left: 0px;
+}
