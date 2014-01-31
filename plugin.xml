@@ -1,0 +1,11 @@
+<plugin>
+  <nom>Menu Déroulant Accessible</nom>
+  <prefix>menuderoulantaccessible</prefix>
+  <version>1.0.0</version>
+  <auteur>Vertige ASBL</auteur>
+  <licence>GNU/GPL</licence>
+  <pipeline>
+    <nom>insert_head</nom>
+    <inclure>menuderoulantaccessible_pipelines.php</inclure>
+  </pipeline>
+</plugin>
