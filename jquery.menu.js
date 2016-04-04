@@ -1,4 +1,10 @@
+/* jshint strict: true, undef: true, unused: true, curly: true,
+   eqeqeq: true, freeze: true, funcscope: true, futurehostile: true,
+   nonbsp: true */
+/* globals jQuery */
+
 (function ($) {
+	"use strict";
 
     $.fn.menuDeroulantAccessible = function () {
 
@@ -15,5 +21,5 @@
                 });
 
         });
-    }
+    };
 })(jQuery);
